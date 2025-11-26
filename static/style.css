@@ -126,24 +126,24 @@ footer {
 }
 
 #testimonialSlide {
-    width: 1082px;
+    width: 59vw;
+}
+
+#testimonialSlide .carousel-inner {
+    position: relative;
+    width: 40vw;
+    overflow: hidden;
+    margin-left: 9vw;
 }
 
 .testimonial {
     background-color: rgba(217, 215, 210, 0.5);
     border: 1px solid #2E2E2E;
-    width: 753px;
-    height: 173px;
-    margin-left: 161.3px;
+    width: 40vw;
+    height: auto;
     padding: 52px;
 }
 
 .testimonial-person {
     text-align: right;
-}
-
-.testimonial-button {
-    width: 32px !important;
-    height: 33px !important;
-    margin-top: 69px;
 }
