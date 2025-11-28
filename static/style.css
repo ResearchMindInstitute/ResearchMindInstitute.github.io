@@ -23,7 +23,7 @@ hr {
 }
 
 p {
-    font-size: large !important;
+    font-size: 1.25vw !important;
 }
 
 a {
@@ -120,11 +120,6 @@ footer {
     width: 76vw;
 }
 
-#programSlide {
-    width: 40vw !important;
-    margin-left: 10vw;
-}
-
 #testimonialSlide {
     width: 59vw;
 }
@@ -146,4 +141,14 @@ footer {
 
 .testimonial-person {
     text-align: right;
+}
+
+#programs-content {
+    justify-content: space-evenly;
+    display: flex;
+    max-width: 100vw;
+}
+
+#programSlide {
+    width: 30vw !important;
 }

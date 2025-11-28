@@ -32,10 +32,11 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="programs.html">Programs</a> 
+                        <a class="nav-link" href="programs.html">Programs</a>
                     <!--
                         <ul class="dropdown-menu" style="margin-left: -10px;">
-                            <li class="dropdown-item"><a class="nav-link" href="programs.html">Camps</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="camps.html">Camps</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="bookclub.html">Book Club</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -55,40 +56,51 @@
         </div>
     </nav>
 
+    <br>
+    <br>
+
     <div class="container">
-        <br>
-        <br>
         <div>
-            <h1 class="h1-title">Camps</h1>
+            <h1 class="h1-title">Programs</h1>
         </div>
 
-        <div id="programSlide" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#programSlide" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#programSlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="static/bookclub.jpg" alt="RMI Book Club Flyer">
+        <div id="programs-content">
+            <div id="programSlide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#programSlide" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#programSlide" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="static/camp_lincoln.png" alt="Lincoln Camp Flyer">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="static/bookclub.jpg" alt="RMI Book Club Flyer">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="static/camp_lincoln.png" alt="Lincoln Camp Flyer">
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#programSlide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#programSlide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#programSlide" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#programSlide" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+            <div style="max-width: 40vw;">
+                <h2>About Our Programs</h2>
+                <hr>
+                <p>Research Mind hosts learning opportunities for students seeking to nurture their lifelong intellectual journeys with further insight and experience. Camps and book discussions provide a motivational space for participants to propel themselves with independence and responsibility, simultaneously teaching the values of our philosophy.</p>
+            </div>
         </div>
     </div>
 
-
     <br>
+    <br>
+
     <footer>
         <div>
             <img id="footer-logo" src="static/favicon.svg">
