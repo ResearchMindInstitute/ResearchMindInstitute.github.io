@@ -104,10 +104,14 @@ footer {
     margin-left: 11.29vw;
 }
 
-#home-header {
+.spaced-content {
     max-width: 100vw;
     display: flex;
     justify-content: space-evenly;
+}
+
+.spaced-graphic {
+    max-width: 30vw !important;
 }
 
 #home-img {
@@ -141,14 +145,4 @@ footer {
 
 .testimonial-person {
     text-align: right;
-}
-
-#programs-content {
-    justify-content: space-evenly;
-    display: flex;
-    max-width: 100vw;
-}
-
-#programSlide {
-    width: 30vw !important;
 }
