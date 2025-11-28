@@ -23,7 +23,7 @@ hr {
 }
 
 p {
-    font-size: 1.25vw !important;
+    font-size: larger !important;
 }
 
 a {
@@ -112,11 +112,6 @@ footer {
 
 .spaced-graphic {
     max-width: 30vw !important;
-}
-
-#home-img {
-    height: 22vw;
-    width: auto;
 }
 
 .home-contents {
