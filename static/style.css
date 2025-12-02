@@ -27,7 +27,8 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(83, 83, 208);
 }
 
 footer {
@@ -111,7 +112,11 @@ footer {
 }
 
 .spaced-graphic {
-    max-width: 30vw !important;
+    width: 30vw !important;
+}
+
+.spaced-text {
+    max-width: 40vw;
 }
 
 .home-contents {
